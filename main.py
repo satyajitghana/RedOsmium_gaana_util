@@ -96,8 +96,8 @@ def save_current_playing():
     ref.set(data)
     history_ref.push(data)
     print(title, atitle, thumbnail)
-    s.enter(10, 1, save_current_playing, ())
+    s.enter(240, 1, save_current_playing, ())
 
 
-s.enter(10, 1, save_current_playing, ())
+s.enter(240, 1, save_current_playing, ())
 s.run()
