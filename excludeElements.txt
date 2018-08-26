@@ -1,0 +1,4 @@
+{
+	"class": ["SCRIPT", "VIDEO", "PLAYER"],
+	"id": ["outercontainer"]
+}
